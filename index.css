@@ -1,0 +1,26 @@
+
+html {
+    background: url(image01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.businesscard {
+    position: fixed;
+    top: 30px; left: 0; bottom: 0; right: 20px;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+
+    background: #f0f0fd;
+    background: rgba(240,240,253,0.90);
+    padding: 22px 32px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.95);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.95);
+    -box-shadow: 0 0 18px rgba(0, 0, 0, 0.95);
+}
