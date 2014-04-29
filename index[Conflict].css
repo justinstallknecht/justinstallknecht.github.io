@@ -5,18 +5,28 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
 .businesscard {
     position: fixed;
-    left: 20px;
-    bottom: 20px;
+    bottom: 20px; left: 20px;
     margin: auto;
     width: 220px;
-    height: 150px;
+    height: 140px;
 
-    background: #373737;
-    background: rgba(55,55,55,0.90);
+    background: #4F4F4F;
+    background: rgba(79,79,79,0.90);
     padding: 22px 32px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -26,20 +36,8 @@ html {
     -box-shadow: 0 0 18px rgba(0, 0, 0, 0.95);
 }
 
-h3 {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 8px;
-}
-
-p,td {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 8px;
-}
-
-.center {
-    text-align: center;
+.grid {
+    border-spacing: 0px;
 }
 
 .icons {
@@ -47,15 +45,15 @@ p,td {
     text-align: right;
 }
 
-.grid {
-    border-spacing: 0px;
+.center {
+    text-align: center;
 }
 
-.spacerleft {
+.leftspacer {
     width: 15px;
 }
 
-.spacerright {
+.rightspacer {
     width: 15px;
     border-left: 1px solid black;
 }
